@@ -66,7 +66,6 @@ function sendTokenToServer(currentToken) {
     } else {
         console.log('Токен уже отправлен на сервер.');
     }
-    $('#token').innerHTML('<p>'+currentToken+'</p>');
 }
 
 // используем localStorage для отметки того,
