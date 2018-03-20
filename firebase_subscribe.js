@@ -19,6 +19,7 @@ if ('Notification' in window) {
     // и подписываем его
     $('#subscribe').on('click', function () {
         subscribe();
+        $('#token').innerHTML('<p>'+currentToken+'</p>');
     });
     // $(document).ready(function () {
     //     subscribe();
