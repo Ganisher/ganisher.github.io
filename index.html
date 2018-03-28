@@ -1,20 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-</head>
+    <title>Title</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="manifest" href="/manifest.json" />
+        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+        <script>
+            var OneSignal = window.OneSignal || [];
+            OneSignal.push(function() {
+                OneSignal.init({
+                    appId: "bc20ae6a-af12-4f4d-8345-4efe3f42d7a7",
+                });
+            });
+        </script>
+    </head>
 <body>
-<div id="token"></div>
-<button type="button" id="subscribe">Следить за изменениями</button>
-<script type="text/javascript" src="//www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
-<script type="text/javascript" src="/firebase_subscribe.js"></script>
+
 </body>
 </html>
+</head>
+<body>
 
-
+</body>
+</html>
