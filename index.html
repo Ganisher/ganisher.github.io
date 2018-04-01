@@ -3,26 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-        <link rel="manifest" href="/manifest.json" />
-        <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-        <script>
-            var OneSignal = window.OneSignal || [];
-            OneSignal.push(function() {
-                OneSignal.init({
-                    appId: "bc20ae6a-af12-4f4d-8345-4efe3f42d7a7",
-                });
+    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        var OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "bc20ae6a-af12-4f4d-8345-4efe3f42d7a7",
             });
-        </script>
-    </head>
-<body>
-
-</body>
-</html>
+        });
+    </script>
 </head>
 <body>
 
